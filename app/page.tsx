@@ -30,7 +30,7 @@ export default function Page() {
           </div>
           <div className="ml-auto flex items-center gap-2">
             <ThemeToggle />
-            <Link href="/Thet_Myo_Naing_Resume.pdf" target="_blank" download>
+            <Link href="/Thet_Myo_Naing_Resume.pdf" download="Thet_Myo_Naing_Resume.pdf">
               <Button variant="outline" size="sm" className="hidden md:flex">
                 <FileDown className="h-4 w-4 mr-2" />
                 Resume

@@ -30,7 +30,7 @@ export default function Page() {
           </div>
           <div className="ml-auto flex items-center gap-2">
             <ThemeToggle />
-            <Link href="/Thet_Myo_Naing_Resume.pdf" download="Thet_Myo_Naing_Resume.pdf">
+            <Link href="/Thet_Myo_Naing_Resume.pdf" download="Thet_Myo_Naing_Resume.pdf" target="_blank">
               <Button variant="outline" size="sm" className="hidden md:flex">
                 <FileDown className="h-4 w-4 mr-2" />
                 Resume
@@ -52,22 +52,16 @@ export default function Page() {
                 developing, testing, and deploying web applications and APIs using Agile methodologies.
               </p>
               <div className="flex gap-4">
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/kothet2139" target="_blank">
                   <Button variant="outline" size="icon" className="rounded-full">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
-                <Link href="https://linkedin.com/in/thet-myo-naing" target="_blank">
+                <Link href="https://www.linkedin.com/in/thet-myo-naing-51a465b5/" target="_blank">
                   <Button variant="outline" size="icon" className="rounded-full">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
-                  </Button>
-                </Link>
-                <Link href="https://twitter.com" target="_blank">
-                  <Button variant="outline" size="icon" className="rounded-full">
-                    <Twitter className="h-5 w-5" />
-                    <span className="sr-only">Twitter</span>
                   </Button>
                 </Link>
                 <Link href="mailto:thetmyonaing1991@gmail.com">
@@ -104,14 +98,14 @@ export default function Page() {
                 description="Comprehensive bill payment system used in KBZ IBanking/mBanking/KBZPay supporting mobile top-up, gift cards, inter-bank transfers, tax payments, and electricity payments."
                 image="/placeholder.svg?height=400&width=600"
                 link="https://github.com"
-                tags={["C#", "MVC5", "Oracle", "SOAP Services", "jQuery"]}
+                tags={["C#", "MVC5", "Oracle", "SOAP Services", "APIs", "jQuery"]}
               />
               <ProjectCard
                 title="eGiro Application (EDDA)"
                 description="Electronic Direct Debit Authorisation system for Tokiomarine allowing customers to create/cancel/report EDDA through Giro and PayNow payments with DBS bank integration."
                 image="/placeholder.svg?height=400&width=600"
                 link="https://github.com"
-                tags={[".NET Core", "React", "Web API", "Scheduler", "DBS Integration"]}
+                tags={[".NET Core", "React", "Web APIs", "Scheduler", "DBS Integration"]}
               />
               <ProjectCard
                 title="Edulearn System (LMS)"
@@ -157,6 +151,7 @@ export default function Page() {
                     Sales management system for jewelry shops with multi-branch support and item transfers.
                   </p>
                   <div className="flex flex-wrap gap-1">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">C# .NET</span>
                     <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">MVC5</span>
                     <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">AngularJS</span>
                     <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">SQL Server</span>
@@ -181,6 +176,7 @@ export default function Page() {
                     Web application for football news, live scores, and social media integration with troll features.
                   </p>
                   <div className="flex flex-wrap gap-1">
+                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">AngularJS</span>
                     <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">C# .NET</span>
                     <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Entity Framework</span>
                     <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Football API</span>
@@ -211,7 +207,7 @@ export default function Page() {
       <footer className="border-t py-6 md:py-8">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground">© 2024 Thet.dev. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2025 Thet.dev. All rights reserved.</p>
             <nav className="flex gap-4 sm:gap-6">
               <Link className="text-sm text-muted-foreground hover:underline underline-offset-4" href="#">
                 Terms of Service

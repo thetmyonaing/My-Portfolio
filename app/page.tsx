@@ -14,7 +14,7 @@ export default function Page() {
         <div className="container flex h-16 items-center">
           <div className="flex items-center gap-6 md:gap-10">
             <Link className="flex items-center space-x-2" href="/">
-              <span className="font-bold text-xl">Thet.dev</span>
+              <span className="font-bold text-xl">Mr. Thet Myo Naing</span>
             </Link>
             <nav className="hidden md:flex gap-6">
               <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">
@@ -45,7 +45,7 @@ export default function Page() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center text-center">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none mb-6">
-                Senior Software Developer
+                Senior Software Engineer
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mb-8">
                 Highly motivated and passionate full stack developer with 9+ years of experience in designing,
